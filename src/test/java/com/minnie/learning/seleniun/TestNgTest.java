@@ -17,7 +17,7 @@ public class TestNgTest {
     @BeforeClass
     public void setUp() throws Exception{
         driver= new ChromeDriver();
-        baseUrl= "http://www.baidu.com/";
+        baseUrl= "http://www.baidu.com";
         driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
     }
 

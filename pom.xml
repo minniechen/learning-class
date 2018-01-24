@@ -30,6 +30,12 @@
             <version>6.13.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.sonarsource.python</groupId>
+            <artifactId>python</artifactId>
+            <version>1.8.0.1496</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
